@@ -1,0 +1,57 @@
+a.navel {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  height: 60px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.gmail .images {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  float: right;
+  padding-left: 32px;
+}
+
+.glogo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  height: 92px;
+}
+
+.centerView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: Roboto, arial, sans-serif;
+  color: #222;
+}
